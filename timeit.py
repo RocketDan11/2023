@@ -13,7 +13,7 @@ def timeit(func):
         
         end = time.time()
         
-        print(time to execute : , func.__name__, end - begin)
+        print('time to execute :' , func.__name__, end - begin)
         
     return inner1
 
