@@ -22,6 +22,10 @@ def block(matrix):
     #store value in submatrix list.
     submatrix = []
     submatrix.extend(block(quadrant1))
+    submatrix.extend(block(quadrant2))
+    submatrix.extend(block(quadrant3))
+    submatrix.extend(block(quadrant4))
+   
 
     return submatrix
 
