@@ -17,6 +17,13 @@ def block(matrix):
     quadrant2 = matrix[:mid_row, mid_col:]
     quadrant3 = matrix[mid_row:, :mid_col]
     quadrant4 = matrix[mid_row:, mid_col:]
-    print(quadrant1)
+    
+    #recursively call block on each quadrant
+    #store value in submatrix list.
+    submatrix = []
+    submatrix.extend(block(quadrant1))
+
+    return submatrix
+
 
 print(block(X))
