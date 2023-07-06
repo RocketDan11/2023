@@ -1,5 +1,9 @@
 import numpy as np
 
+def det(x):
+    return x[0,0]*x[1,1] - x[0,1]*x[1,0]
+
+
 #generate test array
 X  = np.arange(1, 65).reshape(8, 8)
            
@@ -33,3 +37,4 @@ def block(matrix):
 print(block(X))
 submatrix = block(X)
 print(submatrix[0])
+print(det(submatrix[0]))
