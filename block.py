@@ -31,3 +31,5 @@ def block(matrix):
 
 
 print(block(X))
+submatrix = block(X)
+print(submatrix[0])
