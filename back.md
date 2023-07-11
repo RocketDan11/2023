@@ -7,3 +7,14 @@
     year = {1984},
     publisher = {Elsevier},
 }
+
+
+@book{matthes2019python,
+  author = {Matthes, Eric},
+  title = {Python Crash Course},
+  year = {2019},
+  publisher = {No Starch Press},
+  edition = {2nd edition},
+  address = {San Francisco, CA},
+  isbn = {978-1-59327-603-4},
+}
