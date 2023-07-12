@@ -5,6 +5,7 @@ def det(x):
 
 #generate test array
 X  = np.arange(1, 65).reshape(8, 8)
+Z  = np.arange(1, 17).reshape(4, 4)
            
 def block(matrix):
     rows, cols = matrix.shape
@@ -37,3 +38,5 @@ submatrix = block(X)
 for sub in submatrix:
     print(sub)
     print(det(sub))
+
+q1, q2, q3, q4 = block(Z)
