@@ -18,3 +18,6 @@
   address = {San Francisco, CA},
   isbn = {978-1-59327-603-4},
 }
+
+Driver in unknown state after attempting to install cuda. Ubuntu 22.04
+https://forums.developer.nvidia.com/t/driver-in-unknown-state-after-attempting-to-install-cuda-ubuntu-22-04/217106
