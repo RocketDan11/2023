@@ -9,6 +9,8 @@ Checkin in from ubuntu -dman-
 
 hello form the other side !
 
+checkin in from macbook air -dman
+
 note: july 6, 2023
 ---------
 will be salvaging old MATLAB scipts for various operations
