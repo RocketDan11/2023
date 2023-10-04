@@ -5,7 +5,7 @@ from discord import Intents
 
 
 
-SEED = #enter seed from discord
+SEED = 'MTE1ODg0OTA5ODQ2ODgzOTUwNA.GDEEXV.hpBl-HLvSBbeWxNXRNYj0CEuDA0sHByMgi5Hc4'
 intents = Intents.default()
 intents.members = True  # This is for the SERVER MEMBERS INTENT
 intents.presences = True  # This is for the PRESENCE INTENT
