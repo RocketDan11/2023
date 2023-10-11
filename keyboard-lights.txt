@@ -1,0 +1,40 @@
+To control Asus keyboard lights on Pop!_OS 
+-------------------------------------------
+rogauracore is a third-party, community-driven tool designed to allow users to control the RGB lighting of ASUS ROG laptops on Linux systems. Here's a step-by-step guide to help you install rogauracore on Pop!_OS:
+
+    Prerequisites:
+    First, install the required packages:
+
+
+
+`sudo apt update`
+`sudo apt install git autoconf libusb-1.0-0-dev libhidapi-dev libudev-dev`
+
+Clone the Repository:
+
+`git clone https://github.com/wroberts/rogauracore.git`
+`cd rogauracore`
+
+Compile and Install:
+
+`autoreconf -i
+./configure
+make
+`sudo make install`
+
+Add the udev Rule:
+For the tool to be able to communicate with the keyboard without needing root permissions, you'll need to add a udev rule:
+
+`sudo cp 90-rogauracore.rules /etc/udev/rules.d/`
+`sudo udevadm control --reload-rules && sudo udevadm trigger`
+
+Usage:
+
+After installation, you should be able to use the command rogauracore from the terminal. For example:
+
+bash
+
+    rogauracore static FFFFFF
+
+    This command sets the keyboard backlight to a static white color. type rogauracore without arguments to get more usage information.
+
