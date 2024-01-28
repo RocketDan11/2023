@@ -1,6 +1,6 @@
-To control Asus keyboard lights on Pop!_OS 
+To control Asus keyboard lights on ubuntu 
 -------------------------------------------
-rogauracore is a third-party, community-driven tool designed to allow users to control the RGB lighting of ASUS ROG laptops on Linux systems. Here's a step-by-step guide to help you install rogauracore on Pop!_OS:
+rogauracore is a third-party, community-driven tool designed to allow users to control the RGB lighting of ASUS ROG laptops on Linux systems.
 
     Prerequisites:
     First, install the required packages:
@@ -12,10 +12,10 @@ rogauracore is a third-party, community-driven tool designed to allow users to c
 
 Clone the Repository:
 
-`git clone https://github.com/wroberts/rogauracore.git`
+``
 `cd rogauracore`
 
-Compile and Install:
+Compile and Instgit clone https://github.com/wroberts/rogauracore.gitall:
 
 `autoreconf -i
 ./configure
